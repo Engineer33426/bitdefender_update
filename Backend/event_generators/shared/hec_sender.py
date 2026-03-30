@@ -543,6 +543,51 @@ PROD_MAP = {
         "zscaler_private_access",
         ["zscaler_private_access_log"],
     ),
+    #Bitdefender Generators can be used with gron,json,dottedjson parsers.  
+    "bitdefender_gravityzone_accounts": (
+        "bitdefender_gravityzone_accounts",
+        ["bitdefender_gravityzone_accounts_log"],
+    ),
+    "bitdefender_gravityzone_companies": (
+        "bitdefender_gravityzone_companies",
+        ["bitdefender_gravityzone_companies_log"],
+    ),
+    "bitdefender_gravityzone_incidents": (
+        "bitdefender_gravityzone_incidents",
+        ["bitdefender_gravityzone_incidents_log"],
+    ),
+    "bitdefender_gravityzone_integrations": (
+        "bitdefender_gravityzone_integrations",
+        ["bitdefender_gravityzone_integrations_log"],
+    ),
+    "bitdefender_gravityzone_licensing": (
+        "bitdefender_gravityzone_licensing",
+        ["bitdefender_gravityzone_licensing_log"],
+    ),
+    "bitdefender_gravityzone_network": (
+        "bitdefender_gravityzone_network",
+        ["bitdefender_gravityzone_network_log"],
+    ),
+    "bitdefender_gravityzone_packages": (
+        "bitdefender_gravityzone_packages",
+        ["bitdefender_gravityzone_packages_log"],
+    ),
+    "bitdefender_gravityzone_policies": (
+        "bitdefender_gravityzone_policies",
+        ["bitdefender_gravityzone_policies_log"],
+    ),
+    "bitdefender_gravityzone_push_events": (
+        "bitdefender_gravityzone_push_events",
+        ["bitdefender_gravityzone_push_events_log"],
+    ),
+    "bitdefender_gravityzone_quarantine": (
+        "bitdefender_gravityzone_quarantine",
+        ["bitdefender_gravityzone_quarantine_log"],
+    ),
+    "bitdefender_gravityzone_reports": (
+        "bitdefender_gravityzone_reports",
+        ["bitdefender_gravityzone_reports_log"],
+    ),
 }
 # I need to move this down below sourcetype_map so
 #HEC_URL = os.getenv(
